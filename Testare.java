@@ -18,11 +18,12 @@ public class Testare {
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(2000);
 	}
+	//Use a real email and password for this to work
 	public static void click_MyAccount() {
-		driver.findElement(By.id("email")).sendKeys("kvart55@hotmail.com");
+		driver.findElement(By.id("email")).sendKeys("#########");
 	}
 	public static void input_Password() {
-		driver.findElement(By.id("pass")).sendKeys("V12345678");
+		driver.findElement(By.id("pass")).sendKeys("#########");
 	}
 	public static void click_Login() {
 		driver.findElement(By.id("loginbutton")).click();
